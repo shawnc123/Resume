@@ -1,0 +1,90 @@
+% LaTeX resume using res.cls
+\documentclass[margin]{res}
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font 
+\setlength{\textwidth}{5.1in} % set width of text portion
+
+\begin{document}
+
+% Center the name over the entire width of resume:
+ \moveleft.5\hoffset\centerline{\large\bf Shawn E. Crabtree}
+% Draw a horizontal line the whole width of resume:
+ \moveleft\hoffset\vbox{\hrule width\resumewidth height 1pt}\smallskip
+% address begins here
+% Again, the address lines must be centered over entire width of resume:
+ \moveleft.5\hoffset\centerline{3820 NW Sylvan Dr.}
+ \moveleft.5\hoffset\centerline{Corvallis, OR 97330}
+ \moveleft.5\hoffset\centerline{(503) 381-1734}
+
+
+\begin{resume}
+
+\section{EDUCATION} {\sl Bachelor of Science,} Mathematics \\
+                      % \sl will be bold italic in New Century Schoolbook (or
+	              % any postscript font) and just slanted in
+		      %	Computer Modern (default) font
+                Oregon State University, Corvallis, OR, 
+                expected June 2016 \\
+                Minor: Computer Science
+ 
+ 
+\section{TECHNICAL \\ SKILLS} 
+
+
+                \begin{description}
+                  \item[Programming Languages] \hfill \\
+                  C, C++, C\#, Java, JavaScript, Python, and R 
+                  \item[Query Languagues] \hfill \\
+                  SQL, SOQL, and PL/pgSQL 
+                  \item[Web Frameworks] \hfill \\
+                  Microsoft .NET ASP and MVC, AngularJS, and Salesforce 
+                  \item[Front-End Web Desigm] \hfill \\
+                  HTML, CSS, Javascript, JQuery, and Bootstrap
+                  \item[Data Manipulation] \hfill \\
+                  SSIS, DataStage
+                  \item[QA and Test Automation] \hfill \\
+                  FitNesse, Selenium, and Salesforce
+                  \item[Source Control and Project Management] \hfill \\
+                  Git, TFS
+                  \item[Technical Writing] \hfill \\
+                  Documenting software, writing vision and scope documents 
+                \end{description}
+ 
+\section{EXPERIENCE} {\sl Student Developer} \hfill April 2014 to                  March 2015, August 2015 to present \\
+                Center for Applied Systems and Software, Oregon State University
+                 \begin{itemize}  \itemsep -2pt %reduce space between items
+                 \item Develop and test web applications and other software for a range of Oregon State University affiliates as well as other business
+
+                \end{itemize}
+ 
+                {\sl Software Developer Intern} \hfill            March 2015 to August 2015 \\
+                Cambia Health Solutions, Portland, OR 
+                 \begin{itemize}  \itemsep -2pt %reduce space between items
+                 \item Add features to an ASP .NET web application
+                 \item Create DataStage jobs primarily to process large data sets
+                 \item Create automated tests using the FitNesse testing framework
+                 \end{itemize} 
+                {\sl CPOE Tutor} \hfill        
+                April 2012 to September 2012, March 2013 to June 2013  \\
+                Essia Health (formerly Scribes STAT, Inc.), Portland, OR
+                  \begin{itemize}
+                   \item Assist in the implementation of electronic medical records at Southwest Washington Medical Center and Albany General Hospital
+                    \item Help healthcare providers learn and use the medical record and order entry software
+                   \end{itemize} 
+                   
+\section{COURSEWORK}
+    \begin{description}
+                  \item[Mathematics] \hfill \\
+                  Calculus, Series and Sequences, Differential Equations, Basic Analysis, Linear Algebra, Abstract Algebra, Numerical Analysis, Computational Number Theory, Applied and Computational Algebra, Systems of ODEs, Numerical Solutions ordinary DE, Probability
+                  \item[Computer Science] \hfill \\
+                  Data Structures, Databases, Operating Systems, Software Engineering, Computer Networks
+                  \item[Other] \hfill \\
+                  Physics, Chemistry, Biology, Intro to Electrical Engineering, Statistics
+                \end{description}
+
+\end{resume}
+\end{document}
+
+
+
+
