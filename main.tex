@@ -2,6 +2,8 @@
 \documentclass[margin]{res}
 %\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
 %\usepackage{newcent}   % uses new century schoolbook postscript font 
+\usepackage{hyperref}
+\newenvironment{bottompar}{\par\vspace*{\fill}}{\clearpage}
 \setlength{\textwidth}{5.1in} % set width of text portion
 
 \begin{document}
@@ -28,7 +30,7 @@
 		      %	Computer Modern (default) font
                 Oregon State University, Corvallis, OR, 
                 expected August 2016 \\
-                GPA: 3.90
+                GPA: 3.87
                 
 
 \section{WORK \\ EXPERIENCE} {\sl Student Developer II} \hfill April 2014 to March 2015, August 2015 to present \\
@@ -51,45 +53,29 @@
 \section{PROJECTS} 
                 \begin{description}
                   \item[Oregon State University Honors College] \hfill \\
-                  Web application for tracking the entire student lifecycle in the Honors College. Allows student's to apply to the honors college, tracks completion of thesis and degree requirements, and helps alumni continue participating in the Oregon State University community. This project was build using Salesforce and contains many Microsoft SSIS packages for synchronizing student data with university records. 
-                  \item[Smarter Balanced Assessment Consortium] \hfill \\
-                  Allows students to take standardized assessments through a web application and allows administrators to make updates to the assessment items. This projects was developed using many tools including AngularJS, JSP, and C\# console applications. 
-                  \item[USDA Small Fruits and Breeding] \hfill \\
-                  Web application created using .NET MVC to allow Small Fruits and Breeding researchers to better track their breeding program and pursue their research. 
+                  Web application for tracking the entire student lifecycle in the Honors College. Allows student's to apply to the honors college, tracks completion of thesis and degree requirements, and helps alumni continue participating in the  Oregon State University community. This project was build using Salesforce and contains many Microsoft SSIS packages for synchronizing student data with university records. 
                   \item[Cambia Care Coordination] \hfill \\
                   Large scale project using health insurance records to implement gains share, care coordination fees and attributions to provider networks in many states around the country. This project included and ASP .NET Webforms application, many Datastage jobs for transferring data between insurance agencies, as well as a large testing framework build from Selenium in Java. 
                 \end{description}
-                
-\newpage
-        
+             
 \section{TECHNICAL \\ SKILLS} 
-                \begin{description}
-                  \item[Programming Languages] \hfill \\
-                  C, C++, C\#, Java, JavaScript, Python, and R 
-                  \item[Query Languagues] \hfill \\
-                  SQL, SOQL, and PL/pgSQL 
-                  \item[Web Frameworks] \hfill \\
-                  Microsoft .NET ASP and MVC, AngularJS, and Salesforce 
-                  \item[Front-End Web Desigm] \hfill \\
-                  HTML, CSS, Javascript, JQuery, and Bootstrap
-                  \item[Data Manipulation] \hfill \\
-                  Microsoft SSIS, DataStage
-                  \item[Source Control and Project Management] \hfill \\
-                  Git, TFS
-                  \item[Technical Writing] \hfill \\
-                  Documenting software, writing vision and scope documents 
-                \end{description}            
-                
-\section{COURSEWORK}
-    \begin{description}
-                  \item[Mathematics] \hfill \\
-                  Calculus, Series and Sequences, Differential Equations, Basic Analysis, \\ Linear Algebra, Abstract Algebra, Numerical Analysis, Computational Number Theory, Applied and Computational Algebra, Systems of ODEs, Numerical Solutions to ODEs, Probability, Mathematical Modeling
-                  \item[Computer Science] \hfill \\
-                  Operating Systems, Software Engineering, Computer Networks, \\ Data Structures, Databases, Mobile and Cloud Development
-                  
-                \end{description}
 
+\begin{tabular}{ l l }
+ \textbf{Programming Languages} & C, C++, C\#, Java, JavaScript, Python, R  \\
+ \textbf{Query Languagues} & SQL, SOQL, PL/pgSQL   \\
+ \textbf{Web Frameworks} & Microsoft .NET ASP \& MVC, AngularJS, Salesforce   \\
+ \textbf{Front-End Web Design} & HTML, CSS, Javascript, JQuery, Bootstrap  \\
+ \textbf{Data Manipulation} & Microsoft SSIS, DataStage  \\
+ \textbf{Source Control} & Git, TFS \\   
+ \textbf{Technical Writing} & Documenting software, vision and scope documents\\
+\end{tabular}
 \end{resume}
+
+\begin{flushleft}
+\begin{bottompar}
+For more detailed information see my online resume at \href{http://shawncrabtree.github.io}{http://shawncrabtree.github.io}dfgdfgdfgddfgd
+\end{bottompar}
+\end{flushleft}
 \end{document}
 
 
